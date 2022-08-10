@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=Merriweather&family=Open+Sans&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="finProject.css">
+    <title>Portfolio: Andrey Barth</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <nav class="nav-principal">
+        <h2 class="sr-only">Main Navegation</h2>
+        <ol class="und-nav">
+          <li><a class="first-a" href="index.html">Home Page</a></li>
+          <li><a class="first-a" href="curriculum.html">Resume</a></li>
+          <li><a class="first-a" href="portafolio.html">Portfolio</a></li>
+          <li><a class="first-a" href="contacto.html">Contact</a></li> 
+        </ol> 
+      </nav>
+    </header>
+    <main class="contact">
+      <address>
+        <h2>Phone Number :</h2>
+        <p>8356-8707</p>
+
+        <h2>E-mail :</h2>
+        <p>jarabarth@gmail.com</p>
+      </address>
+
+      <div class="contactme">
+        <h2>Contact me</h2>
+        <form
+          action="mailto:jarabarth@gmail.com"
+          method="post"
+          enctype="text/plain">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <div class="reason">
+            <label for="Reason-for-contact">Reason for contact :</label>
+            <select name="Reason-for-contact" id="Reason-for-contact">
+              <option value="" disabled selected>Choose an option</option>
+              <option value="">For a Web Development Project</option>
+              <option value="">For a software program</option>
+              <option value="">Talk to me</option>
+              <option value="">Troubleshooting an existing page</option>
+            </select>
+          </div>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="5"></textarea>
+          <input class="sub" type="submit" value="Send"/>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a href="https://www.instagram.com/and_barth/?hl=es-la" alt="Instagram"><img src="imgs/iconIG.png" alt=""/></a>
+        <a href="https://github.com/search?q=Abarthos" alt="Git"><img src="imgs/iconGIT.png" alt=""/></a>
+        <a href="https://es-es.facebook.com/barthjara" alt="Facebook"><img src="imgs/iconFB.png" alt=""/></a>
+        <p>All rights reserved. 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
